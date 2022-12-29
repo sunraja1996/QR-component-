@@ -1,0 +1,112 @@
+html {
+    font-family: outfit;
+    font-size: 12px;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+}
+img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+#QR_code_conainer {
+    background-color: hsl(0, 0%, 100%);
+    width: 400px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.heading{
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+    
+}
+.detail{
+    color: hsl(220, 15%, 55%);
+    letter-spacing: 1px;
+} 
+
+@media screen and (max-width:1440px) {
+    body {
+        background-color: hsl(212, 45%, 89%);
+        display: grid;
+        place-content: center;
+        min-height: 100vh;
+    }
+    
+    img{
+        height: 250px;
+        width: 250px;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+    
+    #QR_code_conainer {
+        background-color: hsl(0, 0%, 100%);
+        width: 250px;
+        text-align: center;
+        padding: 15px;
+        border-radius: 15px;;
+    }
+    
+    .heading{
+        color: hsl(218, 44%, 22%);
+        font-weight: 700;
+        
+    }
+    .detail{
+        color: hsl(220, 15%, 55%);
+        letter-spacing: 1px;
+    } 
+}
+
+@media screen and (max-width:375px) {
+    body {
+        background-color: hsl(212, 45%, 89%);
+        display: grid;
+        place-content: center;
+        min-height: 100vh;
+    }
+    #QR_code_conainer {
+        background-color: hsl(0, 0%, 100%);
+        width: 250px;
+        text-align: center;
+        padding: 15px;
+        border-radius: 15px;
+    }
+    img{
+        height: 250px;
+        width: 250px;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+        #QR_code_conainer {
+        background-color: hsl(0, 0%, 100%);
+        width: 250px;
+        text-align: center;
+        padding: 15px;
+        border-radius: 15px;;
+    }
+    
+    .heading{
+        color: hsl(218, 44%, 22%);
+        font-weight: 700;
+        
+    }
+    .detail{
+        color: hsl(220, 15%, 55%);
+        letter-spacing: 1px;
+    } 
+
+}
+
+
